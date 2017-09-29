@@ -24,9 +24,7 @@ button.onclick = function() {
 
 var constraints = {
   audio: false,
-  video: {
-      facingMode: { exact: "user" }
-  }
+  video: true
 };
 
 function handleSuccess(stream) {
