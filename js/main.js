@@ -25,7 +25,9 @@ button.onclick = function() {
 var constraints = {
   audio: false,
   video: {
-      facingMode: { exact: "environment" }
+      facingMode: { exact: "environment" },
+      width: 1080,
+      height: 1920
   }
 };
 
